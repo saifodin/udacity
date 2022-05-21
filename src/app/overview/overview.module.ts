@@ -12,6 +12,8 @@ import { ProgramsFeaturesComponent } from './school-page/programs-features/progr
 import { FreeCoursesSectionComponent } from './school-page/free-courses-section/free-courses-section.component';
 import { InvestCareerComponent } from './school-page/invest-career/invest-career.component';
 import { ProgramComponent } from './school-page/program/program.component';
+import { HeroHomeComponent } from './home/hero-home/hero-home.component';
+import { ProvenResultsHomeComponent } from './home/proven-results-home/proven-results-home.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { ProgramComponent } from './school-page/program/program.component';
     FreeCoursesSectionComponent,
     InvestCareerComponent,
     ProgramComponent,
+    HeroHomeComponent,
+    ProvenResultsHomeComponent,
     
   ],
   imports: [

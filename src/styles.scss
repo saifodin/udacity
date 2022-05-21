@@ -5,14 +5,27 @@
     url(./assets/fonts/PolySans-Neutral.woff) format("woff");
 }
 @font-face {
+  font-family: "PolySansBW";
+  src: local("PolySansBW"),
+    url(./assets/fonts/PolySansBulkyWide.ttf) format("ttf");
+}
+
+@font-face {
   font-family: "OpenSans";
   src: url(./assets/fonts/OpenSans-VariableFont.ttf);
 }
 body {
   font-family: "OpenSans";
+  color: #212529;;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PolySans";
+  color: #212529;
 }
 h1 {
-  font-family: "PolySans";
   line-height: 4.5rem;
   font-size: 3.875rem;
   font-weight: 400;
