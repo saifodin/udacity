@@ -1,0 +1,62 @@
+.cover{
+    background-image: url("../../../../assets/images/hero_bg.png");
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    font-family: Open Sans,sans-serif;
+    
+}
+.container-cover{
+    margin-left: 24px;
+}
+.icon-desc{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    max-width: 350px;
+}
+span{
+    color: #017a9b;
+    letter-spacing: .125rem;
+    font-weight: 600;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-weight: 300;
+    color: #2e3d49;
+}
+p{
+    color: #525c65;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    line-height: 28px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.icon{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+    margin-right: 2.5rem;
+}
+.image{
+    width: 700px;
+    display: block;
+    background-image: url("../../../../assets/images/School_of_Product_Management_Image.jpg");;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 0;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    box-sizing: border-box;
+}
