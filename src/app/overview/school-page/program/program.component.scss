@@ -1,0 +1,27 @@
+article{
+    min-height: 181px;
+    box-shadow: 2px 4px 8px 0 rgb(46 61 73 / 20%);
+    padding: 1.5rem 2.25rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 160px 1fr 180px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+button{
+    color: #fff;
+    background-color: #017a9b;
+    border: 0.125rem solid transparent;
+    width: 11.25rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 8px 10px 20px 0 rgb(46 61 73 / 15%);
+    font-weight: 600;
+    font-size: .813rem;
+    line-height: 2.625rem;
+    height: rem;
+    border-radius: 0.25rem;
+    letter-spacing: .125rem;
+}
