@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "PolySans";
+  src: local("PolySans"),
+    url(./assets/fonts/PolySans-Neutral.woff) format("woff");
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(./assets/fonts/OpenSans-VariableFont.ttf);
+}
+* {
+  font-family: "OpenSans";
+}
+h1 {
+  font-family: "PolySans";
+  line-height: 4.5rem;
+  font-size: 3.875rem;
+  font-weight: 400;
+}
+.wrapContainer {
+  padding: 0px 12px 0px 22px;
+}
+
+@media (min-width: 48rem) {
+  .wrapContainer {
+    padding-left: 40px;
+    padding-right: 26px;
+  }
+}
+
+@media (min-width: 74rem) {
+  .wrapContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.customContainer {
+  max-width: 73.75rem;
+  margin: 0 auto;
+}
+
+/*#region-comments-containerBootstrap*/
+// .customContainer {
+//   width: 100%;
+//   padding-right: 15px;
+//   padding-left: 15px;
+//   margin-right: auto;
+//   margin-left: auto;
+// }
+
+// @media (min-width: 576px) {
+//   .customContainer {
+//     max-width: 540px;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .customContainer {
+//     max-width: 720px;
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   .customContainer {
+//     max-width: 960px;
+//   }
+// }
+
+// @media (min-width: 1200px) {
+//   .customContainer {
+//     max-width: 1180px;
+//   }
+// }
+/*#endregion RegionName*/
