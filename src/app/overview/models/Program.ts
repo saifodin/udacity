@@ -3,4 +3,5 @@ export default interface Program{
     conceptsCovered:string;
     status:string;
     date:string;
+    toEnroll:string;
 }

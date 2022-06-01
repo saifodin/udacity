@@ -11,6 +11,53 @@ article{
 li{
     list-style: none;
 }
+.concepts{
+    font-size: .8125rem;
+    line-height: 24px;
+    letter-spacing: .094rem;
+    text-transform: uppercase;
+    color: #657482;
+}
+p{
+    color: black;
+}
+.date-status{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.date{
+    font-weight: 600;
+    margin-right: 4px;
+}
+.btn-enroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Enroll{
+    color: #018377;
+   
+}
+.status{
+    color: #018377;
+    display: inline-block;
+}
+h3{
+    margin-bottom: 24px;
+}
+h3::before{
+    content: "";
+    background: url("../../../../assets/images/icon-nanodegree.svg");
+    display: inline-block;
+    width: 24px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right: 0.5rem;
+}
+
 button{
     color: #fff;
     background-color: #017a9b;
@@ -24,4 +71,7 @@ button{
     height: rem;
     border-radius: 0.25rem;
     letter-spacing: .125rem;
+}
+a{
+    color: #525c65;
 }

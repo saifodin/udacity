@@ -1,17 +1,18 @@
 <li>
     <a>
         <article>
-            <div>
-                <time>{{program.date}}</time>
-                <small>{{program.status}}</small>
+            <div class="date-status">
+                <time class="date">{{program.date}}</time>
+                <small class="status">{{program.status}}</small>
             </div>
             <div>
+
                <h3> {{program.title}}</h3>
-               <p> {{program.conceptsCovered}}</p>
+               <p> <span class="concepts">Concepts Covered: </span>{{program.conceptsCovered}}</p>
             </div>
-            <div>
+            <div class="btn-enroll">
                 <button>Learn more</button>
-                <time></time>
+                <time class=Enroll>{{program.toEnroll}}</time>
             </div>
         </article>
     </a>

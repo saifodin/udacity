@@ -7,10 +7,11 @@ import Program from '../../models/Program'
 })
 export class ProgramComponent implements OnInit {
   @Input() program:Program={
-    title:"Product Management",
-    conceptsCovered:"OOP, C#",
-    status:"New!",
-    date:"May 25",
+    title:"Front End Web Developer",
+    conceptsCovered:"Concepts Covered:HTML5, CSS3, JavaScript, Angular",
+    status:"Top Rated!",
+    date:"June 8",
+    toEnroll:"6 days to enroll"
 };
   constructor() { }
 
