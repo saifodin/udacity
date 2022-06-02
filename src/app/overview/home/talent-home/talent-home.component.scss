@@ -1,0 +1,178 @@
+.talent-section {
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.talent {
+  display: flex;
+}
+.accordion {
+  flex-basis: 475px;
+}
+
+.accordion .header {
+  h3 {
+    line-height: 3.5rem;
+    font-size: 2.875rem;
+    color: #0b0b0b;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    @media (max-width: 991px) {
+      max-width: 435px;
+      line-height: 2.875rem;
+      font-size: 2.375rem;
+    }
+  }
+  p {
+    max-width: 565px;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    color: #0b0b0b;
+    margin-bottom: 1rem;
+    @media (max-width: 991px) {
+      font-size: 1rem;
+      line-height: 1.625rem;
+    }
+  }
+  a {
+    border-bottom: 1px solid #2015ff;
+    color: #2015ff;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: OpenSans;
+    span {
+      font-family: PolySans;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.accordion ol {
+  margin-top: 32px;
+  li {
+    h3 {
+      font-size: 20px;
+      line-height: 1.9375rem;
+      font-weight: 600;
+      letter-spacing: 0.7px;
+    }
+    cursor: pointer;
+    padding: 1.5rem 0 1rem 3.5rem;
+    position: relative;
+    p {
+      height: 0px;
+      overflow: hidden;
+      margin: 0;
+    }
+    &:not(:last-of-type) {
+      border-bottom: 1px solid #cbd5de;
+    }
+    &::before {
+      background-image: url(https://www.udacity.com/images/brand-refresh/icon-arrow-down-black.svg);
+      content: "";
+      display: inline-block;
+      height: 10px;
+      left: 0;
+      margin-top: 1.5rem;
+      position: absolute;
+      top: 10px;
+      width: 18px;
+    }
+    &.active {
+      h3 {
+        color: #2015ff;
+      }
+      p {
+        height: auto;
+      }
+      &::before {
+        background-image: url(https://www.udacity.com/images/brand-refresh/icon-arrow-up-blue.svg);
+      }
+      &:hover {
+        h3 {
+          color: #2015ff;
+        }
+        &::before {
+          background-image: url(https://www.udacity.com/images/brand-refresh/icon-arrow-up-blue.svg);
+        }
+      }
+    }
+    &:hover {
+      h3 {
+        color: #2015ff;
+      }
+      &::before {
+        background-image: url(https://www.udacity.com/images/brand-refresh/icon-arrow-down-blue.svg);
+      }
+    }
+  }
+}
+
+.graphicContainer {
+  margin-left: 100px;
+  flex: 0 0 auto;
+  height: 700px;
+  width: 506px;
+  position: relative;
+  @media (max-width: 1183px) {
+    margin-left: 1rem;
+  }
+  > picture > img {
+    margin-left: -30px;
+    margin-top: -185px;
+    width: 790px;
+  }
+  .talent-buttons {
+    position: absolute;
+    top: 0px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    button {
+      height: 70px;
+      width: 200px;
+      background-color: #fff;
+      opacity: 0.9;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 5px 5px 30px 0 rgb(0 0 0 / 15%);
+      font-weight: 600;
+      padding: 0 0 0 20px;
+      position: absolute;
+      transition: opacity 0.3s ease;
+      &.active {
+        opacity: 1;
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(135deg, #bdea09, #2015ff);
+        border-image-slice: 2;
+      }
+      > img {
+        height: 40px;
+        width: 40px;
+        vertical-align: middle;
+      }
+      span {
+        margin: 0px 27px;
+      }
+      &:nth-child(1) {
+        left: 152px;
+        top: 0;
+      }
+      &:nth-child(2) {
+        right: 0;
+        top: 221px;
+      }
+      &:nth-child(3) {
+        left: 0;
+        top: 331px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1183px) {
+}
+@media (max-width: 991px) {
+}

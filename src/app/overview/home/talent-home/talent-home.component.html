@@ -1,0 +1,76 @@
+<div class="talent-section wrapContainer">
+  <div class="customContainer">
+    <div class="talent">
+      <div class="accordion">
+        <div class="header">
+          <h3>Udacity’s Talent Transformation Suite</h3>
+          <p>
+            Our experts work with you to design a tailored transformation
+            journey. Solve your acute workforce challenges to deliver next-level
+            business results.
+          </p>
+          <a href="#">Learn more <span>→</span></a>
+        </div>
+        <ol>
+          <li (click)="selectAccordion(1)" [ngClass]="whichOpen === 1 ? 'active' : ''">
+            <h3>1. Workshop</h3>
+            <p #paragraph1>
+              Assess talent gaps to accurately benchmark and prioritize
+              innovation projects. Align organizational goals and define
+              workforce transformation strategy, with competencies curated to
+              the individual level.
+            </p>
+          </li>
+          <li (click)="selectAccordion(2)" [ngClass]="whichOpen === 2 ? 'active' : ''">
+            <h3>2. Platform</h3>
+            <p #paragraph2>
+              Easily deploy our infinitely scalable platform, optimized to
+              enable and empower job-ready digital talent. Highly focused
+              content—refined over 10 years with industry experts—verifies core
+              competencies through personalized feedback.
+            </p>
+          </li>
+          <li (click)="selectAccordion(3)" [ngClass]="whichOpen === 3 ? 'active' : ''">
+            <h3>3. Impact</h3>
+            <p #paragraph3>
+              Use our proven playbook to achieve targeted results that increase
+              retention and productivity. Consistently deliver quantifiable
+              outcomes that matter to ROI and business growth, while gaining
+              productivity and a competitive advantage in the market.
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div class="graphicContainer">
+        <picture>
+          <source srcset="
+              https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/6VWrRGtNBKGeivw207U8Gj/9628b44b000dad0588b78d37c751d495/udacitys-talent-transformation-suite-graphic.png?fm=webp&amp;q=60
+            " type="image/webp" />
+          <img
+            src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/6VWrRGtNBKGeivw207U8Gj/9628b44b000dad0588b78d37c751d495/udacitys-talent-transformation-suite-graphic.png?fm=png"
+            alt="" loading="lazy" />
+        </picture>
+        <div class="talent-buttons">
+          <button (click)="selectAccordion(1)" [ngClass]="whichOpen === 1 ? 'active' : ''">
+            <img
+              src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3vpN7jZdIas4DMA4OErtjl/18671564f92da2d95b70755362ae3997/icon-workshop-dark.svg"
+              alt="" />
+            <span>Workshop</span>
+          </button>
+          <button (click)="selectAccordion(2)" [ngClass]="whichOpen === 2 ? 'active' : ''">
+            <img
+              src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4KisRpk1leHAgqH2xwnflL/12bc2a3fc2c7db7add0a017e22f72d0b/icon-platform-dark.svg"
+              alt="" />
+            <span>Platform</span>
+          </button>
+          <button (click)="selectAccordion(3)" [ngClass]="whichOpen === 3 ? 'active' : ''">
+            <img
+              src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4D2zfgvEv5GkpQq0RJuAew/2015350cc7008755c0e480ca6f6b9296/icon-impact-dark.svg"
+              alt="" />
+            <span>Impact</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
