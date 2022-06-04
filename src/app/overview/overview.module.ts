@@ -14,6 +14,7 @@ import { InvestCareerComponent } from './school-page/invest-career/invest-career
 import { ProgramComponent } from './school-page/program/program.component';
 import { HeroHomeComponent } from './home/hero-home/hero-home.component';
 import { ProvenResultsHomeComponent } from './home/proven-results-home/proven-results-home.component';
+import { TalentHomeComponent } from './home/talent-home/talent-home.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { ProvenResultsHomeComponent } from './home/proven-results-home/proven-re
     ProgramComponent,
     HeroHomeComponent,
     ProvenResultsHomeComponent,
+    TalentHomeComponent,
     
   ],
   imports: [
