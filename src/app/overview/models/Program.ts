@@ -4,4 +4,6 @@ export default interface Program{
     status:string;
     date:string;
     toEnroll:string;
+    level:string;
+    
 }

@@ -1,15 +1,21 @@
 .programs-list-container{
     padding: 4rem 1rem;
 }
-
+ul{
+    padding: 0;
+    list-style: none;
+}
 .programs-list{
     margin: 0 auto;
     max-width: 73.75rem;
+
 }
 h2{
+
     font-size: 2rem;
     line-height: 36px;
-    font-weight: 300;
+    font-weight: 100 !important;
     color: #2e3d49;
     margin-bottom: 24px;
+    font-family: OpenSans, sans-serif;
 }
