@@ -11,7 +11,8 @@ export class ProgramComponent implements OnInit {
     conceptsCovered:"Concepts Covered:HTML5, CSS3, JavaScript, Angular",
     status:"Top Rated!",
     date:"June 8",
-    toEnroll:"6 days to enroll"
+    toEnroll:"6 days to enroll",
+    level:"intermediat"
 };
   constructor() { }
 

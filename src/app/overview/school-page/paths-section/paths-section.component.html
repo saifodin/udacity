@@ -1,1 +1,54 @@
-<p>paths-section works!</p>
+<section class="pathSec">
+    <div class="container">
+        <h3>
+            Your path to the right Job
+        </h3>
+        <div class="roadmap">
+            <div class="pathes">
+                <div class="pathes" *ngFor="let pathItem of pathes">
+                    <a>{{pathItem.title}}</a>
+                </div>
+                <a class="btn">Get Started</a>
+            </div>
+            <div class="pathDescription">
+                <div class="path">
+                    <h2>{{path.title}}</h2>
+                    <p>{{path.description}}</p>
+                    <section>
+                        <h2 class=".rec">Recommended Programs</h2>
+                        <ol >
+                            <li *ngFor="let pathProgram of pathPrograms; let i=index">
+                                <a>
+                                    <article class="article-course">
+                                        <h2 class="crsTitle">{{pathProgram.title}}</h2>
+                                        <h3 class="step">Step {{i}}</h3>
+                                        <h4 class="concept">Concepts Covered:</h4>
+                                        <p>{{pathProgram.conceptsCovered}}</p>
+                                        <small>{{pathProgram.level}}</small>
+                                    </article>
+                                </a>
+                            </li>
+                            
+                        </ol>
+                    </section>
+                </div>
+                <div class="Alumini">
+                    <aside>
+                        <h3>Alumini Sucess</h3>
+                        <ul *ngFor="let alumini of alumnis">
+                            <li>
+                                <article>
+                                    <img src="" alt="">
+                                    <h2>{{alumini.name}}</h2>
+                                    <h3>{{alumini.title}} ,{{alumini.company}}</h3>
+                                    <p>{{aluminiProgram.title}}</p>
+                                    <a href="">Read his success story</a>
+                                </article>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

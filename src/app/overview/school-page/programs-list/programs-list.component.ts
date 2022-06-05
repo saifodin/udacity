@@ -11,14 +11,58 @@ export class ProgramsListComponent implements OnInit {
     conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
     status:"Top Rated!",
     date:"June 8",
-    toEnroll:"6 days to enroll"
+    toEnroll:"6 days to enroll",
+    level:"intermediat"
 },
 {
   title:"Full Stack Web Developer",
   conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
   status:" ",
   date:"June 8",
-  toEnroll:"6 days to enroll"
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
+},{
+  title:"Full Stack Web Developer",
+  conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
+  status:" ",
+  date:"June 8",
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
+},{
+  title:"Full Stack Web Developer",
+  conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
+  status:" ",
+  date:"June 8",
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
+},{
+  title:"Full Stack Web Developer",
+  conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
+  status:" ",
+  date:"June 8",
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
+},{
+  title:"Full Stack Web Developer",
+  conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
+  status:" ",
+  date:"June 8",
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
+},{
+  title:"Full Stack Web Developer",
+  conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
+  status:" ",
+  date:"June 8",
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
+},{
+  title:"Full Stack Web Developer",
+  conceptsCovered:"HTML5, CSS3, JavaScript, Angular",
+  status:" ",
+  date:"June 8",
+  toEnroll:"6 days to enroll",
+  level:"intermediat"
 }];
   constructor() { }
 
