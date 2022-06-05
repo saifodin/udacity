@@ -1,0 +1,58 @@
+<div  id="pills-login"  >
+  <form>
+      <div class="text-center my-5">
+        <h2 class="textH1">
+            Sign in to your account 
+        </h2>
+        <br>
+        <p>
+            <span>
+                Build skills for today, tomorrow, and beyond.
+                <br/>
+                Education to future-proof your career.
+            </span>
+        </p>
+      </div>
+   
+        <app-sigh-with></app-sigh-with>
+       
+
+    <!-- Email input -->
+        <div class="form-group mx-5 p-2 mt-4" >
+            <input type="email" style="height: 50px;" id="loginName" class="form-control"  placeholder="Email Address"/>
+        </div>
+
+        <!-- Password input -->
+        <div class="form-group mx-5 p-2 ">
+            <input type="password" style="height: 50px;" id="loginpassword" class="form-control"  placeholder="Password"/>
+        </div>
+
+        <div class=" text-justify mt-2 p-auto">
+            <span>
+                By clicking Sign In, you agree to our
+                <a href="https://www.udacity.com/legal/terms-of-service">Terms of Use</a>
+                and our
+                <a href="https://www.udacity.com/legal/privacy">Privacy Policy</a>
+                .
+            </span>
+        </div>
+        <div class="m-4">
+            <button type="submit" class="btn btn-block mb-4 signin">Sign in</button>
+        </div>
+        <div>
+            <a href="/reset-password-email?next=https://classroom.udacity.com">Forgot your password?</a>
+        </div>
+        <div class="mt-4 d-flex justify-content-center">
+            <div class="w-25"><hr/></div> 
+            <p>Or</p>
+            <div class="w-25"><hr/></div> 
+        </div>
+
+        <div class="m-4">
+            <a href="/sign-in/sso?next=https://classroom.udacity.com">Sign in with your organization</a>
+        </div>
+        
+    </form>
+
+   
+</div>

@@ -1,0 +1,17 @@
+<div>
+    <div class="tabbed">
+        <ul class="nav nav-justified mb-3" id="ex1">
+            <li class="nav-item" [ngStyle]="{'background-color':statusUP?'white':'#c8cdd2'}">
+              <a (click)="changeStatus(0)" id="tab-register" routerLink="register"
+             >sign up</a>
+            </li>
+            <li class="nav-item" [ngStyle]="{'background-color':statusIN?'white':'#c8cdd2'}">
+              <a (click)="changeStatus(1)" id="tab-login" routerLink="login"
+                >sign in</a>
+            </li>
+          </ul>
+            <router-outlet></router-outlet>
+            
+    </div>
+</div>
+
