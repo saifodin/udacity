@@ -15,6 +15,8 @@ import { ProgramComponent } from './school-page/program/program.component';
 import { HeroHomeComponent } from './home/hero-home/hero-home.component';
 import { ProvenResultsHomeComponent } from './home/proven-results-home/proven-results-home.component';
 import { TalentHomeComponent } from './home/talent-home/talent-home.component';
+import { SchoolsWheelHomeComponent } from './home/schools-wheel-home/schools-wheel-home.component';
+import { OutcomesHomeComponent } from './home/schools-wheel-home/outcomes-home/outcomes-home.component';
 
 
 @NgModule({
@@ -32,6 +34,8 @@ import { TalentHomeComponent } from './home/talent-home/talent-home.component';
     HeroHomeComponent,
     ProvenResultsHomeComponent,
     TalentHomeComponent,
+    SchoolsWheelHomeComponent,
+    OutcomesHomeComponent,
     
   ],
   imports: [
