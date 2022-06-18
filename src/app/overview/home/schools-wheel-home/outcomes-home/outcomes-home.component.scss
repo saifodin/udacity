@@ -1,6 +1,9 @@
 .outcomes {
   margin-top: 100px;
   padding-bottom: 150px;
+  @media (max-width: 767px) {
+    padding-bottom: 50px;
+  }
   h3 {
     font-size: 1.3125rem;
     line-height: 1.9375rem;
@@ -12,6 +15,7 @@
       font-size: 1.125rem;
       line-height: 1.75rem;
     }
+
   }
 }
 

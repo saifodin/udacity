@@ -17,6 +17,7 @@ import { ProvenResultsHomeComponent } from './home/proven-results-home/proven-re
 import { TalentHomeComponent } from './home/talent-home/talent-home.component';
 import { SchoolsWheelHomeComponent } from './home/schools-wheel-home/schools-wheel-home.component';
 import { OutcomesHomeComponent } from './home/schools-wheel-home/outcomes-home/outcomes-home.component';
+import { LogoGardenHomeComponent } from './home/logo-garden-home/logo-garden-home.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { OutcomesHomeComponent } from './home/schools-wheel-home/outcomes-home/o
     TalentHomeComponent,
     SchoolsWheelHomeComponent,
     OutcomesHomeComponent,
+    LogoGardenHomeComponent,
     
   ],
   imports: [
