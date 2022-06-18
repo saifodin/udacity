@@ -1,0 +1,64 @@
+.banner-background-section {
+  background-image: url(https://www.udacity.com/images/brand-refresh/cta-background2.jpg);
+  min-height: 600px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 991px) {
+    display: flex;
+    min-height: 400px;
+    padding: 5rem 0;
+  }
+}
+
+.banner-background {
+  text-align: center;
+  h2 {
+    margin: 0 15px;
+    line-height: 4.5rem;
+    font-size: 3.875rem;
+    margin-bottom: 3.5rem;
+    color: #fff;
+    max-width: 778px;
+    @media (max-width: 991px) {
+      margin-bottom: 2rem;
+      line-height: 3.625rem;
+      font-size: 3rem;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 2.5rem;
+      font-size: 2.125rem;
+      line-height: 2.75rem;
+      text-align: center;
+    }
+  }
+  button {
+    background-color: #bdea09;
+    color: #0b0b0b;
+    font-size: 18px;
+    width: 272px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    height: 60px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin: 0;
+    padding: 16px 20px 14px 27px;
+    text-align: left;
+    position: relative;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+    span {
+      margin-left: auto;
+      position: absolute;
+      right: 20px;
+      font-size: 26px;
+    }
+    &:hover {
+      background-color: #a6cc00;
+    }
+  }
+}
